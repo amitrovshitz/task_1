@@ -32,7 +32,7 @@ int isPalindrome(int num)
 
 }
 int isArmstrong(int num)
-{
+{  
     int sum_digit=1;
     int sum=0;
     int count_digit=0;

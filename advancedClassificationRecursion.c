@@ -49,7 +49,9 @@ int isArmstrong_1(int num,int sum,int p)
   return isArmstrong_1(num,sum,p);
 }
 int isArmstrong(int num_1)
-{  int c=count(num_1);
+{
+
+  int c=count(num_1);
     return isArmstrong_1(num_1,num_1,c);
 }
 
