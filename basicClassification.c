@@ -15,9 +15,13 @@ int isPrime(int num)
  {   int current_digit=0;
       int same_name=num;
     int sum=0;
+    if(num==0)
+    sum=1;
     while(num!=0)
     {
      current_digit=num%10;
+     if(current_digit==0)
+     sum+=1;
      int sum_digit=1;
      for(int i=1;i<=current_digit;i++)
      {
