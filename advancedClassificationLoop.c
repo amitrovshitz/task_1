@@ -59,4 +59,3 @@ int isArmstrong(int num)
     }
     return 0;
 }
-
