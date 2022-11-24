@@ -11,7 +11,7 @@ int main()
         printf(" %d",i);
     }
     printf("\n");
-    printf("The Palindromes are:");
+    printf("The Palindromes are: ");
     for(int i=num_1;i<=num_2;i++)
     {    
         if(isPalindrome(i)!=0)
@@ -33,5 +33,5 @@ int main()
     }
       printf("\n");
 
-    return 1;
+    return 0;
 }
